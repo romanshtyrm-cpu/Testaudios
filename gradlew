@@ -1,2 +1,3 @@
 #!/bin/sh
-echo 'Gradle wrapper placeholder'
+DIR="$(dirname "$0")"
+"$DIR/gradle/wrapper/gradle-wrapper.jar" "$@"
